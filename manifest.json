@@ -1,0 +1,33 @@
+{
+  "required_api_version": "2",
+  "name": "Todo cli",
+  "description": "Add a todo item",
+  "developer_name": "Peter Stuifzand",
+  "icon": "images/icon2.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "todo_kw",
+      "type": "keyword",
+      "name": "Todo",
+      "description": "Todo",
+      "default_value": "todo"
+    },
+    {
+      "id": "todo_list",
+      "type": "input",
+      "name": "List id",
+      "description": "Which list to add the todo to",
+      "default_value": ""
+    },
+    {
+      "id": "todo_token",
+      "type": "input",
+      "name": "Token",
+      "description": "Secret token for Directus",
+      "default_value": ""
+    }
+  ]
+}
